@@ -1,0 +1,36 @@
+﻿body {
+	font-family: Arial;
+}
+#menu {
+	width: 100vw;
+	height: 30px;
+	background:  rgba(10, 10, 95, .7);
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+        margin:0;
+	padding:0;
+	box-shadow: 0 5px 10px rgba(55, 55, 142, .5);
+}
+#first_big_image {
+	background: url(images/space-background.jpg);
+	background-repeat: no-repeat;
+	background-size: 120%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	
+}
+#first_big_image hr {
+	border: white 2px solid;
+	width: 400px;
+}
+#first_big_image h1 {
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
