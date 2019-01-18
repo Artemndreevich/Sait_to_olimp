@@ -106,7 +106,10 @@ display: inline-block;
 } 
 
 #icon-down {
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 25882d1eef3127700fdf06ff7b73ab1f8b527b4b
 	padding: 0px;
 	border-radius: 50%;
 	width: 20px;
@@ -128,7 +131,7 @@ display: inline-block;
 	}
 	50% {
 		bottom: calc(3% - 8px);
-		left: calc(50% - 18px);
+		left: calc(50% - 20px);
 		width: 36px;
 		height: 36px;
 	}
