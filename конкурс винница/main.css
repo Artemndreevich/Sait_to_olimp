@@ -37,6 +37,7 @@
 	width: 400px;
 }
 #first_big_image h1 {
+	text-shadow: 2px 2px 5px white;
 	font-size: 6em;
 	color: white;
  	margin-bottom: 0px;
