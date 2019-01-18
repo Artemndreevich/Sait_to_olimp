@@ -31,22 +31,17 @@ display: inline-block;
 	text-decoration: none; 
 	display: block;
 	padding: 10px;
-<<<<<<< HEAD
 	font-weight: bold;
-}
-#mark li a:hover{
-	background-color: rgba(255, 255, 255, .6);
-=======
+	text-decoration: none; 
+	display: block;
+	padding: 10px;
 	margin-right: 30px;
 	transition: all 1s;
 	border-radius: 2px;
 	font-weight: bold;
-	color: rgb(255, 255, 255);
-
 }
 #mark li a:hover{
-	background-color: rgba(255, 255, 255, 0.466);
->>>>>>> e88c4e901772509f066ef860fa4e9d66daf53012
+	background-color: rgba(255, 255, 255, .6);
 	text-decoration: none; 
 	display: block;
 	padding: 10px;
@@ -57,6 +52,7 @@ display: inline-block;
 
 
 }
+
 
 
 
@@ -110,15 +106,12 @@ display: inline-block;
 } 
 
 #icon-down {
-<<<<<<< HEAD
 	
 	padding: 0px;
-=======
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
 	padding: 5px;
->>>>>>> e88c4e901772509f066ef860fa4e9d66daf53012
 	position: absolute;
 	bottom: 3%;
 	left: calc(50% - 20px);
