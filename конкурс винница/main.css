@@ -49,6 +49,7 @@
 	position: absolute;
 	top: 100%;
 	left: 2%;
+	box-shadow: 0 10px 30px rgb(151, 151, 255);
 }
 
 #first_big_image h2 {
