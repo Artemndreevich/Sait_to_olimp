@@ -34,16 +34,19 @@ display: inline-block;
 	margin-left: 30px;
 	transition: all 1s;
 	border-radius: 2px;
+	font-weight: bold;
 
 }
 #mark li a:hover{
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.692);
 	text-decoration: none; 
 	display: block;
 	padding: 10px;
 	margin-left: 30px;
 	transition: all 1s;
 	border-radius: 2px;
+	font-weight: bold;
+
 
 }
 
