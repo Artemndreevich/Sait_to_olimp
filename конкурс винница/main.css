@@ -110,15 +110,11 @@ display: inline-block;
 } 
 
 #icon-down {
-<<<<<<< HEAD
-	
 	padding: 0px;
-=======
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
 	padding: 5px;
->>>>>>> e88c4e901772509f066ef860fa4e9d66daf53012
 	position: absolute;
 	bottom: 3%;
 	left: calc(50% - 20px);
@@ -135,7 +131,7 @@ display: inline-block;
 	}
 	50% {
 		bottom: calc(3% - 8px);
-		left: calc(50% - 18px);
+		left: calc(50% - 20px);
 		width: 36px;
 		height: 36px;
 	}
