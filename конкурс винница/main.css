@@ -39,7 +39,7 @@ display: inline-block;
 
 }
 #mark li a:hover{
-	background-color: rgba(255, 255, 255, 0.692);
+	background-color: rgba(255, 255, 255, 0.466);
 	text-decoration: none; 
 	display: block;
 	padding: 10px;
