@@ -3,7 +3,7 @@
 }
 #menu {
 	width: 100%;
-	height: 35px;
+	height: 40px;
 	background:  rgba(10, 10, 95, .7);
 	z-index: 100;
 	position: fixed;
@@ -25,14 +25,24 @@
 	height: 100%;
 	
 }
+#main_title {
+	margin-left: 120px;
+
+	margin-top: 400px;
+}
 #first_big_image hr {
-	border: white 2px solid;
+	border: white 3px solid;
+	margin-left: 0px;
 	width: 400px;
 }
 #first_big_image h1 {
+	font-size: 6em;
+	color: white;
+ 	margin-bottom: 0px;
+	line-height: 50%;
+}
+#first_big_image h2 {
 	font-size: 3em;
 	color: white;
-	text-align: center;
-	line-height: 50%;
-	vertical-align: center;
+
 }
