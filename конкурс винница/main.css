@@ -30,7 +30,13 @@ display: inline-block;
 #mark li a{
 	text-decoration: none; 
 	display: block;
-	margin: 10px;
+	padding: 10px;
+}
+#mark li a:hover{
+	background-color: white;
+	text-decoration: none; 
+	display: block;
+	padding: 10px;
 }
 
 
