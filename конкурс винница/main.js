@@ -21,6 +21,7 @@ $(document).ready(function() {
     });
     function hidde1(){
         $('.plitka_to_text1').fadeOut(100);
+        
     }
     $('.on-plitka-text2,#b2block').mouseover(function(){
         $('.plitka_to_text2').fadeIn(500);
