@@ -57,21 +57,22 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-	background: #003 url(images/solar-system.jpg) no-repeat;
-	background-size: cover;
+	background: #303 url(images/solar-system.jpg) no-repeat;
+	background-size: 100% 100%;
 	float: left;
 }
 #blocl_helper1{
 	display: block;
 	height: 400px;
 	width: 50%;
-	background-color: #003;
+	background-color: #303;
 	float: left;
 }
 #b2block{
 	height: 400px;
 	width: 50%;
-	background-color: #303;
+	background: #003 url(images/earth-main-img.jpeg) no-repeat;
+	background-size: 100% 100%;
 	float: right;
 	}
 	#blocl_helper2{
@@ -79,34 +80,36 @@ display: inline-block;
 		height: 400px;
 		width: 50%;
 		float: right;
-		background-color: #303;
+		background-color: #003;
 		float: left;
 	}
 #b3block{
 	height: 400px;
 	width: 50%;
-	background-color: #003;
+	background: #311 url(images/marc-main-img.jpg) no-repeat;
+	background-size: 100% 100%;
 	float: left;
 	}
 	#blocl_helper3{
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: #003;
+		background-color: #311;
 
 		float: left;
 	}
 #b4block{
 	height: 400px;
 	width: 50%;
-	background-color: #336;
+	background: rgb(13, 34, 51) url(images/suputnik-main.jpg) no-repeat;
+	background-size: 100% 100%;
 	float: right;
 	}
 	#blocl_helper4{
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: #336;
+		background-color: rgb(13, 34, 51);
 		float: right;
 		float: left;
 
