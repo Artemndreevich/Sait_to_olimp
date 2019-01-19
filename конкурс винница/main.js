@@ -16,7 +16,7 @@ $(document).ready(function() {
        
     });
     
-    $('.on-plitka-text1,#b1block').mouseout(function(){
+    $('#b1block').mouseout(function(){
         setTimeout(hidde1,500);
     });
     function hidde1(){
@@ -26,7 +26,7 @@ $(document).ready(function() {
         $('.plitka_to_text2').fadeIn(500);
     });
     
-    $('.on-plitka-text2,#b2block').mouseout(function(){
+    $('#b2block').mouseout(function(){
         setTimeout(hidde2,500);
     });
     function hidde2(){
@@ -36,7 +36,7 @@ $(document).ready(function() {
         $('.plitka_to_text3').fadeIn(500);
     });
     
-    $('.on-plitka-text3,#b3block').mouseout(function(){
+    $('#b3block').mouseout(function(){
         setTimeout(hidde3,1000);
     });
     function hidde3(){
@@ -46,8 +46,8 @@ $(document).ready(function() {
         $('.plitka_to_text4').fadeIn(500);
     });
     
-    $('.on-plitka-text4,#b4block').mouseout(function(){
-        setTimeout(hidde4,1000);
+    $('#b4block').mouseout(function(){
+        setTimeout(hidde4,500);
     });
     function hidde4(){
         $('.plitka_to_text4').fadeOut(100);
@@ -56,10 +56,10 @@ $(document).ready(function() {
         $('.plitka_to_text5').fadeIn(500);
     });
     
-    $('.on-plitka-text5,#b5block').mouseout(function(){
-        setTimeout(hidde4,1000);
+    $('#b5block').mouseout(function(){
+        setTimeout(hidde5,500);
     });
-    function hidde4(){
+    function hidde5(){
         $('.plitka_to_text5').fadeOut(100);
     }
 
