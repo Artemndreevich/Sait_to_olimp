@@ -8,42 +8,42 @@ $(document).ready(function() {
     $('.plitka_to_text3').hide();
     $('.plitka_to_text4').hide();
 
-    $('#b1block').mouseover(function(){
+    $('.on-plitka-text1').mouseover(function(){
     
         $('.plitka_to_text1').fadeIn(500);
     });
     
-    $('#b1block').mouseout(function(){
+    $('.on-plitka-text1').mouseout(function(){
         setTimeout(hidde1,1000);
     });
     function hidde1(){
         $('.plitka_to_text1').fadeOut(100);
     }
-    $('#b2block').mouseover(function(){
+    $('.on-plitka-text2').mouseover(function(){
         $('.plitka_to_text2').fadeIn(500);
     });
     
-    $('#b2block').mouseout(function(){
+    $('.on-plitka-text2').mouseout(function(){
         setTimeout(hidde2,1000);
     });
     function hidde2(){
         $('.plitka_to_text2').fadeOut(100);
     }
-    $('#b3block').mouseover(function(){
+    $('.on-plitka-text3').mouseover(function(){
         $('.plitka_to_text3').fadeIn(500);
     });
     
-    $('#b3block').mouseout(function(){
+    $('.on-plitka-text3').mouseout(function(){
         setTimeout(hidde3,1000);
     });
     function hidde3(){
         $('.plitka_to_text3').fadeOut(100);
     }
-    $('#b4block').mouseover(function(){
+    $('.on-plitka-text4').mouseover(function(){
         $('.plitka_to_text4').fadeIn(500);
     });
     
-    $('#b4block').mouseout(function(){
+    $('.on-plitka-text4').mouseout(function(){
         setTimeout(hidde4,1000);
     });
     function hidde4(){
