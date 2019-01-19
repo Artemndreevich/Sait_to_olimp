@@ -133,7 +133,7 @@ display: inline-block;
 	#b5block{
 		height: 300px;
 		width: 100%;
-		background: rgb(13, 34, 51) url(solar-system.jpg) no-repeat;
+		background: rgb(13, 34, 51) url(images/solar-system.jpg) no-repeat;
 		background-size: 100% 100%;
 		float: right;
 		}
