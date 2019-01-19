@@ -66,7 +66,7 @@ $(document).ready(function() {
 
 
     var $page = $('html, body');
-$('a[href*="#main"]').click(function() {
+$('a[href="#main"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 400);
