@@ -34,7 +34,7 @@ display: inline-block;
 	display: block;
 	padding: 10px;
 	margin-right: 30px;
-	transition: all 1s;
+	transition: all 0.9s ease-out;
 	border-radius: 2px;
 	font-weight: bold;
 }
@@ -47,6 +47,7 @@ display: inline-block;
 	transition: all 1s;
 	border-radius: 2px;
 	font-weight: bold;
+	color: rgba(0, 0, 100, .9);
 
 
 }
@@ -63,7 +64,12 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
+<<<<<<< HEAD
 	background-color:#003 ;
+=======
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 70, .3);
+>>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
 	float: left;
 }
 #b2block{
@@ -76,7 +82,13 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
+<<<<<<< HEAD
 		background-color:#303 ;
+=======
+		background-color: rgb(255, 255, 255);
+		float: right;
+		background-color: rgba(0, 0, 70, .3);
+>>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
 		float: left;
 	}
 #b3block{
@@ -89,7 +101,13 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
+<<<<<<< HEAD
 		background-color:#003 ;
+=======
+		background-color: rgb(255, 255, 255);
+		background-color: rgba(0, 0, 70, .3);
+
+>>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
 		float: left;
 	}
 #b4block{
@@ -102,24 +120,36 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
+<<<<<<< HEAD
 		background-color:#336 ;
 		float: left;
 	}
 .plitka_to_text1{
 	margin: 15%;
 	color: rgb(255, 255, 255);
+=======
+		background-color: rgba(255, 255, 255, .3);
+		float: right;
+		background-color: rgba(0, 0, 70, .3);
+		float: left;
+
+	}
+.plitka_to_text1{
+	margin: 15%;
+	color: #002;
+>>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
 }
 .plitka_to_text2{
 	margin: 15%;
-	color: white;
+	color: #002;
 }
 .plitka_to_text3{
 	margin: 15%;
-	color: white;
+	color: #002;
 }
 .plitka_to_text4{
 	margin: 15%;
-	color: white;
+	color: #002;
 }
 .important_span{
 	font-weight: bold;
