@@ -50,6 +50,8 @@ display: inline-block;
 
 
 }
+
+/* ПЛИТКА */
 #b1block{
 	display: block;
 	height: 300px;
@@ -91,6 +93,8 @@ display: inline-block;
 	font-weight: bold;
 	font-size: x-large;
 }
+
+
 
 
 
