@@ -7,6 +7,7 @@ $(document).ready(function() {
     $('.plitka_to_text2').hide();
     $('.plitka_to_text3').hide();
     $('.plitka_to_text4').hide();
+    $('.plitka_to_text5').hide();
 
     $('.on-plitka-text1,#b1block').mouseover(function(){
         $('.plitka_to_text1').fadeIn(500);
@@ -50,6 +51,16 @@ $(document).ready(function() {
     });
     function hidde4(){
         $('.plitka_to_text4').fadeOut(100);
+    }
+    $('.on-plitka-text5,#b5block').mouseover(function(){
+        $('.plitka_to_text5').fadeIn(500);
+    });
+    
+    $('.on-plitka-text5,#b5block').mouseout(function(){
+        setTimeout(hidde4,1000);
+    });
+    function hidde4(){
+        $('.plitka_to_text5').fadeOut(100);
     }
 
 
