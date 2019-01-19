@@ -28,9 +28,7 @@ display: inline-block;
 }
 
 #mark li a{
-	text-decoration: none; 
-	display: block;
-	padding: 10px;
+	color: white;
 	font-weight: bold;
 	text-decoration: none; 
 	display: block;
@@ -53,6 +51,7 @@ display: inline-block;
 
 }
 #b1block{
+	display: block;
 	height: 300px;
 	width: 300px;
 	background-color: aqua;
@@ -109,7 +108,7 @@ display: inline-block;
 	width: 400px;
 }
 #first_big_image h1 {
-	text-shadow: 2px 2px 5px white;
+	text-shadow: 1px 2px 7px white;
 	font-size: 6em;
 	color: white;
  	margin-bottom: 0px;
