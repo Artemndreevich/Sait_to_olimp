@@ -319,7 +319,7 @@ display: inline-block;
 	top: 65.3%;
 	width: 190px;
 	left: calc(16.4% - 190px);
-
+	opacity: 0;
 	transition: all 0.5s ease-in;
 }
 
@@ -339,7 +339,7 @@ display: inline-block;
 	top: 57.3%;
 	width: 190px;
 	left: calc(24.1% - 190px);
-	opacity: 1;
+	opacity: 0;
 	transition: all 0.5s ease-in;
 }
 #earth {
