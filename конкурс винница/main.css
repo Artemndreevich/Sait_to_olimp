@@ -54,14 +54,14 @@ display: inline-block;
 /* ПЛИТКА */
 #b1block{
 	display: block;
-	height: 300px;
-	width: 300px;
+	height: 400px;
+	width: 50%;
 	background-color: aqua;
 	float: left;
 }
 #b2block{
-	height: 300px;
-	width: 300px;
+	height: 400px;
+	width: 50%;
 	background-color: rgb(0, 255, 76);
 	float: left;
 	}
