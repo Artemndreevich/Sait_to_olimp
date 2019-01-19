@@ -57,7 +57,8 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-	background-color: #003;
+	background: #003 url(images/solar-system.jpg) no-repeat;
+	background-size: cover;
 	float: left;
 }
 #blocl_helper1{
