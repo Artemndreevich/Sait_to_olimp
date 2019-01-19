@@ -63,7 +63,11 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
+<<<<<<< HEAD
 	background-color: rgb(255, 255, 255);
+=======
+	background-color: rgb(253, 142, 142);
+>>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
 	float: left;
 }
 #b2block{
@@ -76,8 +80,13 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
+<<<<<<< HEAD
 		background-color: rgb(255, 255, 255);
 		float: right;
+=======
+		background-color: rgb(245, 143, 143);
+		float: left;
+>>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
 	}
 #b3block{
 	height: 400px;
@@ -89,7 +98,11 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
+<<<<<<< HEAD
 		background-color: rgb(255, 255, 255);
+=======
+		background-color: rgb(243, 141, 141);
+>>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
 		float: left;
 	}
 #b4block{
@@ -102,8 +115,13 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
+<<<<<<< HEAD
 		background-color: rgba(255, 255, 255, .3);
 		float: right;
+=======
+		background-color: rgb(255, 158, 158);
+		float: left;
+>>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
 	}
 .plitka_to_text1{
 	margin: 15%;
