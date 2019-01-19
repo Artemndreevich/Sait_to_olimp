@@ -1,5 +1,5 @@
 ﻿body {
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: rgb(10, 10, 95);
 }
 
@@ -28,39 +28,69 @@ display: inline-block;
 }
 
 #mark li a{
+	color: white;
+	font-weight: bold;
 	text-decoration: none; 
 	display: block;
 	padding: 10px;
-<<<<<<< HEAD
-	font-weight: bold;
-}
-#mark li a:hover{
-	background-color: rgba(255, 255, 255, .6);
-=======
 	margin-right: 30px;
 	transition: all 1s;
 	border-radius: 2px;
 	font-weight: bold;
-	color: rgb(255, 255, 255);
-
 }
 #mark li a:hover{
-	background-color: rgba(255, 255, 255, 0.466);
->>>>>>> e88c4e901772509f066ef860fa4e9d66daf53012
+	background-color: rgba(255, 255, 255, .6);
 	text-decoration: none; 
 	display: block;
 	padding: 10px;
-	margin-left: 30px;
+	margin-right: 30px;
 	transition: all 1s;
 	border-radius: 2px;
 	font-weight: bold;
 
 
 }
-
-
-
-
+#b1block{
+	display: block;
+	height: 300px;
+	width: 300px;
+	background-color: aqua;
+	float: left;
+}
+#b2block{
+	height: 300px;
+	width: 300px;
+	background-color: rgb(0, 255, 76);
+	float: left;
+	}
+#b3block{
+	height: 300px;
+	width: 300px;
+	background-color: aqua;
+	float: left;
+	}
+#b4block{
+	height: 300px;
+	width: 300px;
+	background-color: rgb(0, 255, 76);
+	float: left;
+	}
+.plitka_to_text1{
+	margin: 15%;
+}
+.plitka_to_text2{
+	margin: 15%;
+}
+.plitka_to_text3{
+	margin: 15%;
+}
+.plitka_to_text4{
+	margin: 15%;
+}
+.important_span{
+	font-weight: bold;
+	font-size: x-large;
+}
 
 
 
@@ -77,9 +107,9 @@ display: inline-block;
 	
 }
 #main_title {
-	margin-left: 10%;
+	margin-left: 150px;
 
-	margin-top: 30%;
+	margin-top: 330px;
 }
 #first_big_image hr {
 	border: white 3px solid;
@@ -87,7 +117,7 @@ display: inline-block;
 	width: 400px;
 }
 #first_big_image h1 {
-	text-shadow: 2px 2px 5px white;
+	text-shadow: 1px 2px 7px white;
 	font-size: 6em;
 	color: white;
  	margin-bottom: 0px;
@@ -95,7 +125,7 @@ display: inline-block;
 }
 #main{
 	width: 96%;
-	height: 50%;
+	height: 1300px;
 	background-color:  white;
 	position: absolute;
 	top: 100%;
@@ -110,6 +140,7 @@ display: inline-block;
 } 
 
 #icon-down {
+	
 	padding: 0px;
 	border-radius: 50%;
 	width: 20px;
