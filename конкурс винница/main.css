@@ -63,11 +63,7 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-<<<<<<< HEAD
-	background-color: rgb(255, 255, 255);
-=======
-	background-color: rgb(253, 142, 142);
->>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
+	background-color:#003 ;
 	float: left;
 }
 #b2block{
@@ -80,13 +76,8 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-<<<<<<< HEAD
-		background-color: rgb(255, 255, 255);
-		float: right;
-=======
-		background-color: rgb(245, 143, 143);
+		background-color:#303 ;
 		float: left;
->>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
 	}
 #b3block{
 	height: 400px;
@@ -98,11 +89,7 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-<<<<<<< HEAD
-		background-color: rgb(255, 255, 255);
-=======
-		background-color: rgb(243, 141, 141);
->>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
+		background-color:#003 ;
 		float: left;
 	}
 #b4block{
@@ -115,17 +102,12 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-<<<<<<< HEAD
-		background-color: rgba(255, 255, 255, .3);
-		float: right;
-=======
-		background-color: rgb(255, 158, 158);
+		background-color:#336 ;
 		float: left;
->>>>>>> ec4c20f92f014772490822f56c74db92fb39abf8
 	}
 .plitka_to_text1{
 	margin: 15%;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 .plitka_to_text2{
 	margin: 15%;
@@ -209,16 +191,4 @@ display: inline-block;
 	height: 30px;
 	animation: pulsation-down 0.7s infinite alternate;
 
-}
-@keyframes pulsation-down {
-	from {
-		width: 30px;
-		height: 30px;
-	}
-	50% {
-		bottom: calc(3% - 8px);
-		left: calc(50% - 20px);
-		width: 36px;
-		height: 36px;
-	}
 }
