@@ -63,7 +63,7 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(253, 142, 142);
 	float: left;
 }
 #b2block{
@@ -76,7 +76,7 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: rgb(0, 0, 0);
+		background-color: rgb(245, 143, 143);
 		float: left;
 	}
 #b3block{
@@ -89,7 +89,7 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: rgb(0, 0, 0);
+		background-color: rgb(243, 141, 141);
 		float: left;
 	}
 #b4block{
@@ -102,7 +102,7 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: rgb(0, 0, 0);
+		background-color: rgb(255, 158, 158);
 		float: left;
 	}
 .plitka_to_text1{
