@@ -65,8 +65,7 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-	background-color: rgb(255, 255, 255);
-	background-color: rgba(0, 0, 70, .3);
+	background-color: #003;
 	float: left;
 }
 #b2block{
@@ -79,9 +78,8 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: rgb(255, 255, 255);
 		float: right;
-		background-color: rgba(0, 0, 70, .3);
+		background-color: #303;
 		float: left;
 	}
 #b3block{
@@ -94,8 +92,7 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: rgb(255, 255, 255);
-		background-color: rgba(0, 0, 70, .3);
+		background-color: #003;
 
 		float: left;
 	}
@@ -109,27 +106,26 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-		background-color: rgba(255, 255, 255, .3);
+		background-color: #336;
 		float: right;
-		background-color: rgba(0, 0, 70, .3);
 		float: left;
 
 	}
 .plitka_to_text1{
 	margin: 15%;
-	color: #002;
+	color: rgb(255, 255, 255);
 }
 .plitka_to_text2{
 	margin: 15%;
-	color: #002;
+	color: rgb(255, 255, 255);
 }
 .plitka_to_text3{
 	margin: 15%;
-	color: #002;
+	color: rgb(255, 255, 255);
 }
 .plitka_to_text4{
 	margin: 15%;
-	color: #002;
+	color: rgb(255, 255, 255);
 }
 .important_span{
 	font-weight: bold;
@@ -201,16 +197,4 @@ display: inline-block;
 	height: 30px;
 	animation: pulsation-down 0.7s infinite alternate;
 
-}
-@keyframes pulsation-down {
-	from {
-		width: 30px;
-		height: 30px;
-	}
-	50% {
-		bottom: calc(3% - 8px);
-		left: calc(50% - 20px);
-		width: 36px;
-		height: 36px;
-	}
 }
