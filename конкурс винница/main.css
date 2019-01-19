@@ -53,12 +53,29 @@ display: inline-block;
 
 }
 #b1block{
-height: 200px;
-width: 200px;
-background-color: aqua;
+	height: 300px;
+	width: 300px;
+	background-color: aqua;
+	float: left;
 }
-
-
+#b2block{
+	height: 300px;
+	width: 300px;
+	background-color: rgb(0, 255, 76);
+	float: left;
+	}
+#b3block{
+	height: 300px;
+	width: 300px;
+	background-color: aqua;
+	float: left;
+	}
+#b4block{
+	height: 300px;
+	width: 300px;
+	background-color: rgb(0, 255, 76);
+	float: left;
+		}
 
 
 
