@@ -57,7 +57,7 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-	background: #303 url(images/solar-system.jpg) no-repeat;
+	background: #303 url(images/sun.jpg) no-repeat;
 	background-size: 100% 100%;
 	float: left;
 }
@@ -65,7 +65,7 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-	background-color: #303;
+	background-color: rgb(77, 2, 2);
 	float: left;
 }
 #b2block{
@@ -115,19 +115,23 @@ display: inline-block;
 
 	}
 .plitka_to_text1{
-	margin: 15%;
+	margin: 20px;
 	color: rgb(255, 255, 255);
 }
 .plitka_to_text2{
-	margin: 15%;
+	margin: 20px;
 	color: rgb(255, 255, 255);
 }
 .plitka_to_text3{
-	margin: 15%;
+	margin: 20px;
 	color: rgb(255, 255, 255);
 }
 .plitka_to_text4{
-	margin: 15%;
+	margin: 20px;
+	color: rgb(255, 255, 255);
+}
+.plitka_to_text5{
+	margin: 20px;
 	color: rgb(255, 255, 255);
 }
 .important_span{
