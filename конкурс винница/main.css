@@ -136,3 +136,15 @@ display: inline-block;
 		height: 36px;
 	}
 }
+#rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-right: 200px solid transparent;
+}
