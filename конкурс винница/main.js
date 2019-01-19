@@ -9,12 +9,14 @@ $(document).ready(function() {
     $('.plitka_to_text4').hide();
 
     $('.on-plitka-text1,#b1block').mouseover(function(){
-    
         $('.plitka_to_text1').fadeIn(500);
+        //$('.on-plitka-text1').hide();
+
+       
     });
     
     $('.on-plitka-text1,#b1block').mouseout(function(){
-        setTimeout(hidde1,1000);
+        setTimeout(hidde1,500);
     });
     function hidde1(){
         $('.plitka_to_text1').fadeOut(100);
@@ -24,7 +26,7 @@ $(document).ready(function() {
     });
     
     $('.on-plitka-text2,#b2block').mouseout(function(){
-        setTimeout(hidde2,1000);
+        setTimeout(hidde2,500);
     });
     function hidde2(){
         $('.plitka_to_text2').fadeOut(100);

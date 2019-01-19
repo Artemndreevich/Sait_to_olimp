@@ -75,6 +75,7 @@ display: inline-block;
 }
 .on-plitka-text1:hover, .on-plitka-text2:hover, .on-plitka-text3:hover, .on-plitka-text4:hover, .on-plitka-text5:hover {
 	opacity: 0;
+	
 
 }
 #blocl_helper1{
