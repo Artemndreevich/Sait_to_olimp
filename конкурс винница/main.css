@@ -64,12 +64,7 @@ display: inline-block;
 	display: block;
 	height: 400px;
 	width: 50%;
-<<<<<<< HEAD
-	background-color:#003 ;
-=======
-	background-color: rgb(255, 255, 255);
-	background-color: rgba(0, 0, 70, .3);
->>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
+	background-color: #003;
 	float: left;
 }
 #b2block{
@@ -82,13 +77,8 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-<<<<<<< HEAD
-		background-color:#303 ;
-=======
-		background-color: rgb(255, 255, 255);
 		float: right;
-		background-color: rgba(0, 0, 70, .3);
->>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
+		background-color: #303;
 		float: left;
 	}
 #b3block{
@@ -101,13 +91,8 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-<<<<<<< HEAD
-		background-color:#003 ;
-=======
-		background-color: rgb(255, 255, 255);
-		background-color: rgba(0, 0, 70, .3);
+		background-color: #003;
 
->>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
 		float: left;
 	}
 #b4block{
@@ -120,36 +105,26 @@ display: inline-block;
 		display: block;
 		height: 400px;
 		width: 50%;
-<<<<<<< HEAD
-		background-color:#336 ;
-		float: left;
-	}
-.plitka_to_text1{
-	margin: 15%;
-	color: rgb(255, 255, 255);
-=======
-		background-color: rgba(255, 255, 255, .3);
+		background-color: #336;
 		float: right;
-		background-color: rgba(0, 0, 70, .3);
 		float: left;
 
 	}
 .plitka_to_text1{
 	margin: 15%;
-	color: #002;
->>>>>>> 21a49582c624909dc0307e3278cb69f47724f398
+	color: rgb(255, 255, 255);
 }
 .plitka_to_text2{
 	margin: 15%;
-	color: #002;
+	color: rgb(255, 255, 255);
 }
 .plitka_to_text3{
 	margin: 15%;
-	color: #002;
+	color: rgb(255, 255, 255);
 }
 .plitka_to_text4{
 	margin: 15%;
-	color: #002;
+	color: rgb(255, 255, 255);
 }
 .important_span{
 	font-weight: bold;
