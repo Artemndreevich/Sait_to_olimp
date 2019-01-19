@@ -5,6 +5,7 @@ $(document).ready(function() {
     menu.hide().slideDown(2000);
     $('.plitka_to_text').hide();
     $('#b1block').mouseover(function(){
+        $('.plitka_to_text').html('rsdgrdg <span class="important_span">ghghfd</span>')
         $('.plitka_to_text').fadeIn(500);
     });
     
