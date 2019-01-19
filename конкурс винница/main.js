@@ -49,4 +49,14 @@ $(document).ready(function() {
     function hidde4(){
         $('.plitka_to_text4').fadeOut(100);
     }
+
+
+
+    var $page = $('html, body');
+$('a[href*="#main"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});
 });
