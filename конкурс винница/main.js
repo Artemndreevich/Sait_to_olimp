@@ -9,14 +9,14 @@ $(document).ready(function() {
     $('.plitka_to_text4').hide();
     $('.plitka_to_text5').hide();
 
-    $('.on-plitka-text1,#b1block').mouseover(function(){
+    $('#b1block').mouseover(function(){
         $('.plitka_to_text1').fadeIn(500);
         //$('.on-plitka-text1').hide();
 
        
     });
     
-    $('#b1block').mouseout(function(){
+    $('#b1block,.on-plitka-text1').mouseout(function(){
         setTimeout(hidde1,500);
     });
     function hidde1(){
