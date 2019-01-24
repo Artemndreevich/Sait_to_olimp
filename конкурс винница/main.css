@@ -61,6 +61,7 @@ display: inline-block;
 	background-size: 100% 100%;
 	float: left;
 }
+
 .on-plitka-text1, .on-plitka-text2, .on-plitka-text3, .on-plitka-text4 {
 	display: block;
 	height: max-content;
@@ -304,7 +305,7 @@ display: inline-block;
 	border-left: 10px rgb(255, 255, 255) solid;
 }
 #merqury {
-	border: 2px green solid;
+	border: 1% green solid;
 	border-radius: 50%;
 	width: 2.5%;
 	height: 5%;
