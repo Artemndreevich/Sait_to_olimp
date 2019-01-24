@@ -459,4 +459,60 @@ display: inline-block;
 	opacity: 0;
 	transition: all 0.5s ease-in;
 }
+#mars1{
+	display: block;
+	height: 400px;
+	width: 50%;
+	background: #311 url(images/sun.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+#mars1 img{
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mars1-text{
+	display: block;
+	height: 400px;
+	width: 50%;
+	background: #311 ;
+	background-size: 100% 100%;
+	float: left;
+}
+#mars2{
+	display: block;
+	height: 400px;
+	width: 50%;
+	background: #311 url(images/sun.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+#mars2-text{
+	display: block;
+	height: 400px;
+	width: 50%;
+	background: #311 ;
+	background-size: 100% 100%;
+	float: left;
+}
+
+#mars3{
+	display: block;
+	height: 400px;
+	width: 50%;
+	background: #311 url(images/sun.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+#mars3-text{
+	display: block;
+	height: 400px;
+	width: 50%;
+	background: #311 ;
+	background-size: 100% 100%;
+	float: left;
+}
+
 
