@@ -73,5 +73,92 @@ $('a[href="#main"]').click(function() {
     }, 400);
     return false;
 });
+
+$('.help-inform1').hide();
+$('.help-inform2').hide();
+$('.help-inform3').hide();
+$('.help-inform4').hide();
+$('.help-inform5').hide();
+$('.help-inform6').hide();
+$('.help-inform7').hide();
+$('.help-inform8').hide();
+$('.help-inform9').hide();
+$('.help-inform10').hide();
+
+$('#sun').mouseover(function(){
+    $('.help-inform1').fadeIn(400);
+});
+$('#sun').mouseout(function(){
+    $('.help-inform1').fadeOut(400);
+});
+
+
+$('#mercury').mouseover(function(){
+    $('.help-inform2').fadeIn(400);
+});
+$('#mercury').mouseout(function(){
+    $('.help-inform2').fadeOut(400);
+});
+
+
+$('#vener').mouseover(function(){
+    $('.help-inform3').fadeIn(400);
+});
+$('#vener').mouseout(function(){
+    $('.help-inform3').fadeOut(400);
+});
+
+
+$('#earthh').mouseover(function(){
+    $('.help-inform4').fadeIn(400);
+});
+$('#earthh').mouseout(function(){
+    $('.help-inform4').fadeOut(400);
+});
+
+
+$('#marss').mouseover(function(){
+    $('.help-inform5').fadeIn(400);
+});
+$('#marss').mouseout(function(){
+    $('.help-inform5').fadeOut(400);
+});
+
+
+$('#Jupiter').mouseover(function(){
+    $('.help-inform6').fadeIn(400);
+});
+$('#Jupiter').mouseout(function(){
+    $('.help-inform6').fadeOut(400);
+});
+
+
+$('#saturN').mouseover(function(){
+    $('.help-inform7').fadeIn(400);
+});
+$('#saturN').mouseout(function(){
+    $('.help-inform7').fadeOut(400);
+});
+$('#uraN').mouseover(function(){
+    $('.help-inform8').fadeIn(400);
+});
+$('#uraN').mouseout(function(){
+    $('.help-inform8').fadeOut(400);
+});
+$('#neptuN').mouseover(function(){
+    $('.help-inform9').fadeIn(400);
+});
+$('#neptuN').mouseout(function(){
+    $('.help-inform9').fadeOut(400);
+});
+$('#sun').mouseover(function(){
+    $('.help-inform10').fadeIn(400);
+});
+$('#sun').mouseout(function(){
+    $('.help-inform10').fadeOut(400);
+});
+
+
+
 });
 

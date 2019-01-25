@@ -320,8 +320,6 @@ display: inline-block;
 	top: 65.3%;
 	width: 190px;
 	left: calc(16.4% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
 }
 
 #venera {
@@ -340,8 +338,7 @@ display: inline-block;
 	top: 57.3%;
 	width: 190px;
 	left: calc(24.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #earth {
 	border: 2px green solid;
@@ -359,8 +356,7 @@ display: inline-block;
 	top: 48.3%;
 	width: 190px;
 	left: calc(31.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #marc {
 	border: 2px green solid;
@@ -379,8 +375,7 @@ display: inline-block;
 	top: 39.3%;
 	width: 190px;
 	left: calc(37% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #upiter {
 	border: 2px green solid;
@@ -398,8 +393,7 @@ display: inline-block;
 	top: 39.3%;
 	width: 190px;
 	left: calc(46.9% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #saturn {
 	border: 2px green solid;
@@ -418,8 +412,7 @@ display: inline-block;
 	top: 24.3%;
 	width: 190px;
 	left: calc(56.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #uran {
 	border: 2px green solid;
@@ -437,8 +430,7 @@ display: inline-block;
 	top: 16.3%;
 	width: 190px;
 	left: calc(72.6% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #neptun {
 	border: 2px green solid;
@@ -456,8 +448,7 @@ display: inline-block;
 	top: 7.3%;
 	width: 190px;
 	left: calc(81.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 div.page-navigation {
 	position: relative;
