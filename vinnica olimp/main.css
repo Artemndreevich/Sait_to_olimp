@@ -266,6 +266,12 @@ display: inline-block;
 	width: 100%;
 	height: 100%;	
 }
+#solar-systam-image-div > img {
+	transition: all .5s;
+}
+#solar-systam-image-div > img:hover {
+	transform: scale(1.07);
+}
 #solar-systam-image-div h1 {
 	text-shadow: 1px 2px 7px white;
 	font-size: 3em;
