@@ -256,7 +256,7 @@ display: inline-block;
 
 
 #solar-systam-image-div {
-	background: url(images/solar-system-start-img.jpg);
+	background-color: rgb(3, 12, 66) ;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: absolute;
