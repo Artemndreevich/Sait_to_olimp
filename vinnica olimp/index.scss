@@ -1,4 +1,30 @@
+$top:50%;
 #sun{
-    width: 400px;
     height: 100%;
+    width:300px;
+}
+#mercury{
+width: 30px;
+position: absolute;
+left: 310px;
+
+top: $top;
+}
+#vener{
+    width: 40px;
+    position: absolute;
+    left: 350px;
+    top: $top; 
+}
+#earthh{
+    width: 35px;
+    position: absolute;
+    left: 400px;
+    top: $top;    
+}
+#mars{
+    width: 35px;
+    position: absolute;
+    left: 445px;
+    top: $top; 
 }
