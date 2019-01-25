@@ -299,9 +299,9 @@ display: inline-block;
 	position: absolute;
 	right: -30px;
 	top: 10px;
-	border-right: 10px rgba(0, 0, 0, 0) solid;
-	border-top: 10px rgba(0, 0, 0, 0) solid;
-	border-bottom: 10px rgba(0, 0, 0, 0) solid;
+	border-right: 10px transparent solid;
+	border-top: 10px transparent solid;
+	border-bottom: 10px transparent solid;
 	border-left: 10px rgb(255, 255, 255) solid;
 }
 #merqury {
@@ -331,8 +331,7 @@ display: inline-block;
 	top: 57.3%;
 	width: 190px;
 	left: calc(24.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #earth {
 	border: 2px green solid;
@@ -350,8 +349,7 @@ display: inline-block;
 	top: 48.3%;
 	width: 190px;
 	left: calc(31.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #marc {
 	border: 2px green solid;
@@ -370,8 +368,7 @@ display: inline-block;
 	top: 39.3%;
 	width: 190px;
 	left: calc(37% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #upiter {
 	border: 2px green solid;
@@ -389,8 +386,7 @@ display: inline-block;
 	top: 39.3%;
 	width: 190px;
 	left: calc(46.9% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #saturn {
 	border: 2px green solid;
@@ -409,8 +405,7 @@ display: inline-block;
 	top: 24.3%;
 	width: 190px;
 	left: calc(56.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #uran {
 	border: 2px green solid;
@@ -428,8 +423,7 @@ display: inline-block;
 	top: 16.3%;
 	width: 190px;
 	left: calc(72.6% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 #neptun {
 	border: 2px green solid;
@@ -447,8 +441,7 @@ display: inline-block;
 	top: 7.3%;
 	width: 190px;
 	left: calc(81.1% - 190px);
-	opacity: 0;
-	transition: all 0.5s ease-in;
+
 }
 div.page-navigation {
 	position: relative;
