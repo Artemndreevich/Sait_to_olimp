@@ -10,6 +10,14 @@
   top: 300px;
 }
 
+#mercury_help {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 310px;
+}
+
 #vener {
   width: 40px;
   position: absolute;

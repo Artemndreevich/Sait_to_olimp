@@ -1,4 +1,5 @@
-$top:50%;
+$helpW:150px;
+$helpH:300px;
 #sun{
     height: 100%;
     width:300px;
@@ -9,6 +10,14 @@ position: absolute;
 left: 310px;
 top: 300px;
 }
+#mercury_help{
+    width: $helpW;
+    height: $helpH;
+    position: absolute;
+    top: 50px;
+    left: 310px;
+}
+
 #vener{
     width: 40px;
     position: absolute;
