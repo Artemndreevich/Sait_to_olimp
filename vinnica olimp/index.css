@@ -7,28 +7,49 @@
   width: 30px;
   position: absolute;
   left: 310px;
-  top: 50%;
+  top: 300px;
 }
 
 #vener {
   width: 40px;
   position: absolute;
   left: 350px;
-  top: 50%;
+  top: 295px;
 }
 
 #earthh {
   width: 35px;
   position: absolute;
   left: 400px;
-  top: 50%;
+  top: 298.5px;
 }
 
-#mars {
-  width: 35px;
+#marss {
+  width: 32px;
   position: absolute;
   left: 445px;
-  top: 50%;
+  top: 299px;
+}
+
+#Jupiter {
+  width: 100px;
+  position: absolute;
+  left: 487px;
+  top: 265px;
+}
+
+#saturN {
+  width: 200px;
+  position: absolute;
+  left: 597px;
+  top: 275px;
+}
+
+#uraN {
+  width: 80px;
+  position: absolute;
+  left: 797px;
+  top: 275px;
 }
 
 /*# sourceMappingURL=index.css.map */
