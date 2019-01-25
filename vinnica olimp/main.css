@@ -317,23 +317,14 @@ display: inline-block;
 .help-inform1 {
 	display: block;
 	position: absolute;
-	top: 65.3%;
+	top: 295px;
 	width: 190px;
-	left: calc(16.4% - 190px);
-	opacity: 0;
+	left: 310px;
+	
 	transition: all 0.5s ease-in;
 }
 
-#venera {
-	border: 2px green solid;
-	border-radius: 50%;
-	width: 4%;
-	height: 8%;
-	position: absolute;
-	top: 57.3%;
-	left: 25.1%;
-	background: rgba(0, 0, 0, 0);
-}
+
 .help-inform2 {
 	display: block;
 	position: absolute;
