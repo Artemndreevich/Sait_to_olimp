@@ -9,18 +9,15 @@ $(document).ready(function() {
     $('.plitka_to_text4').hide();
     $('.plitka_to_text5').hide();
 
-    $('#b1block').mouseover(function(){
-        $('.plitka_to_text1').fadeIn(500);
-        //$('.on-plitka-text1').hide();
+    $('#b1block,.on-plitka-text1').mouseover(function(){
+       $('.plitka_to_text1').fadeIn(500);
 
-       
     });
     
-    $('#b1block,.on-plitka-text1').mouseout(function(){
-        setTimeout(hidde1,500);
+    $('#b1block').mouseout(function(){
+        setTimeout(hidde1,1000);
     });
     function hidde1(){
-        $('.plitka_to_text1').fadeOut(100);
         
     }
     $('.on-plitka-text2,#b2block').mouseover(function(){
@@ -31,7 +28,6 @@ $(document).ready(function() {
         setTimeout(hidde2,500);
     });
     function hidde2(){
-        $('.plitka_to_text2').fadeOut(100);
     }
     $('.on-plitka-text3,#b3block').mouseover(function(){
         $('.plitka_to_text3').fadeIn(500);
@@ -41,7 +37,6 @@ $(document).ready(function() {
         setTimeout(hidde3,1000);
     });
     function hidde3(){
-        $('.plitka_to_text3').fadeOut(100);
     }
     $('.on-plitka-text4,#b4block').mouseover(function(){
         $('.plitka_to_text4').fadeIn(500);
@@ -51,7 +46,6 @@ $(document).ready(function() {
         setTimeout(hidde4,500);
     });
     function hidde4(){
-        $('.plitka_to_text4').fadeOut(100);
     }
     $('.on-plitka-text5,#b5block').mouseover(function(){
         $('.plitka_to_text5').fadeIn(500);
@@ -61,7 +55,6 @@ $(document).ready(function() {
         setTimeout(hidde5,500);
     });
     function hidde5(){
-        $('.plitka_to_text5').fadeOut(100);
     }
 
 
