@@ -535,8 +535,11 @@ div.page-navigation {
 	width: 100%;
 	margin-bottom: 4%;
 	box-shadow: 2px 4px 17px rgba(255, 255, 255, .4);
+	transition: all 0.5s;
 }
-
+.content-img-left img:hover, .content-img-right img:hover {
+	transform: scale(1.05);
+}
 #video-space {
 	width: 96%;
 	background: url(images/solar-system-start-back.jpg) no-repeat;
@@ -555,14 +558,15 @@ div.page-navigation {
 .content-img-right-big {
 	float: right;
 	width: 35%;
-	
 	margin: 0 2%;
-	
 	margin-bottom: 4%;
 	box-shadow: 2px 4px 17px rgba(255, 255, 255, .4);
 	clear: both;
+	transition: all .5s;
 }
-
+.content-img-right-big:hover {
+	transform: scale(1.03)
+}
 #statistyc-punkt {
 	clear: both;
 	vertical-align: middle;
