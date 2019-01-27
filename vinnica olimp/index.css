@@ -8,11 +8,11 @@
   position: absolute;
   left: 310px;
   top: 300px;
-  -webkit-animation: planet-tranform 50s linear infinite;
-          animation: planet-tranform 50s linear infinite;
+  -webkit-animation: planet-tranform 50s linear;
+          animation: planet-tranform 50s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
 }
-/* infinite задает бесконечное повторение анимации. так короче чем с 
-animation-iteration-count: 9999999; */
 
 #mercury_help {
   width: 800px;
@@ -35,8 +35,10 @@ animation-iteration-count: 9999999; */
   position: absolute;
   left: 350px;
   top: 295px;
-  -webkit-animation: planet-tranform 50s linear infinite;
-          animation: planet-tranform 50s linear infinite;
+  -webkit-animation: planet-tranform 50s linear;
+          animation: planet-tranform 50s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
 }
 
 #earthh {
@@ -44,8 +46,10 @@ animation-iteration-count: 9999999; */
   position: absolute;
   left: 400px;
   top: 298.5px;
-  -webkit-animation: planet-tranform 50s linear infinite;
-          animation: planet-tranform 50s linear infinite;
+  -webkit-animation: planet-tranform 50s linear;
+          animation: planet-tranform 50s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
 }
 
 #marss {
@@ -53,8 +57,10 @@ animation-iteration-count: 9999999; */
   position: absolute;
   left: 445px;
   top: 299px;
-  -webkit-animation: planet-tranform 50s linear infinite;
-          animation: planet-tranform 50s linear infinite;
+  -webkit-animation: planet-tranform 50s linear;
+          animation: planet-tranform 50s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
 }
 
 #Jupiter {
@@ -62,8 +68,10 @@ animation-iteration-count: 9999999; */
   position: absolute;
   left: 487px;
   top: 265px;
-  -webkit-animation: planet-tranform 80s linear infinite;
-          animation: planet-tranform 80s linear infinite;
+  -webkit-animation: planet-tranform 80s linear;
+          animation: planet-tranform 80s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
 }
 
 #saturN {
@@ -71,9 +79,10 @@ animation-iteration-count: 9999999; */
   position: absolute;
   left: 597px;
   top: 275px;
-  -webkit-animation: planet-tranform 80s linear infinite;
-          animation: planet-tranform 80s linear infinite;
-
+  -webkit-animation: planet-tranform 80s linear;
+          animation: planet-tranform 80s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
 }
 
 #uraN {
@@ -81,8 +90,10 @@ animation-iteration-count: 9999999; */
   position: absolute;
   left: 797px;
   top: 275px;
-  -webkit-animation: planet-tranform 80s linear infinite;
-          animation: planet-tranform 80s linear infinite;
+  -webkit-animation: planet-tranform 80s linear;
+          animation: planet-tranform 80s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
 }
 
 #neptuN {
@@ -90,8 +101,50 @@ animation-iteration-count: 9999999; */
   position: absolute;
   left: 887px;
   top: 290px;
-  -webkit-animation: planet-tranform 80s linear infinite;
-          animation: planet-tranform 80s linear infinite;
+  -webkit-animation: planet-tranform 80s linear;
+          animation: planet-tranform 80s linear;
+  -webkit-animation-iteration-count: 9999999;
+          animation-iteration-count: 9999999;
+}
+
+#first-mars {
+  background: url(images/images.png) no-repeat;
+  background-size: 130%;
+  background-position: 50%;
+}
+
+#first-mars:hover {
+  background-size: 140%;
+}
+
+#second-mars {
+  background: url(images/mars-v-vodolee-2018-vliyanie-na-znaki-zodiaka.jpg) no-repeat;
+  background-size: 175%;
+  background-position: 50%;
+}
+
+#second-mars:hover {
+  background-size: 185%;
+}
+
+#third-mars {
+  background: url(images/800px-TerraformedMarsGlobeRealistic.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: 50%;
+}
+
+#third-mars:hover {
+  background-size: 110% 110%;
+}
+
+#fourth-mars {
+  background: url(images/MarsTransitionV.jpg) no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+
+#fourth-mars:hover {
+  background-size: 110%;
 }
 
 /*# sourceMappingURL=index.css.map */
