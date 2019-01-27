@@ -1,4 +1,4 @@
-﻿body {
+body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: rgb(10, 10, 95);
 }
@@ -200,7 +200,7 @@ display: inline-block;
 #main_title {
 	margin-left: 150px;
 
-	margin-top: 330px;
+	margin-top: 30%;
 }
 #first_big_image hr {
 	border: white 3px solid;
@@ -607,7 +607,7 @@ div.page-navigation {
 	display: block;
 	height: 400px;
 	width: 50%;
-	background: #311 url(images/sun.jpg) no-repeat;
+	background: #311 url(images/mars-v-vodolee-2018-vliyanie-na-znaki-zodiaka.jpg) no-repeat;
 	background-size: 100% 100%;
 	float: left;
 }
@@ -629,8 +629,7 @@ div.page-navigation {
 	display: block;
 	height: 400px;
 	width: 50%;
-	background: #311 url(images/sun.jpg) no-repeat;
-	background-size: 100% 100%;
+	background: #311 url(images/images.png) no-repeat;
 	float: left;
 }
 #mars2-text{
@@ -646,8 +645,7 @@ div.page-navigation {
 	display: block;
 	height: 400px;
 	width: 50%;
-	background: #311 url(images/sun.jpg) no-repeat;
-	background-size: 100% 100%;
+	background: #311 url(images/800px-TerraformedMarsGlobeRealistic.jpg) no-repeat;
 	float: left;
 }
 #mars3-text{
