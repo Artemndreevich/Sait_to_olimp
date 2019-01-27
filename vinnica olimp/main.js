@@ -150,8 +150,31 @@ $('#sun').mouseover(function(){
 $('#sun').mouseout(function(){
     $('.help-inform10').fadeOut(400);
 });
+// ССЫЛКИ
 
-
-
+$('a[href="#p1"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});
+$('a[href="#p2"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});
+$('a[href="#p3"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});
+$('a[href="#p4"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});
 });
 
