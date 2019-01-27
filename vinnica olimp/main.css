@@ -1,4 +1,4 @@
-body {
+﻿body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: rgb(10, 10, 95);
 }
@@ -418,7 +418,7 @@ div.page-navigation {
 	margin: 0 0.5%;
 	width: 23%;
 	
-	transition: all .5s ease-in;
+	transition: all .5s ease-out;
 	
 }
 .page-navigation a {
@@ -432,7 +432,7 @@ div.page-navigation {
 	font-size: 2.1vw;
 	padding: calc(200px - 50%) 0;
 	background: radial-gradient(at center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
-	transition: all .5s ease-in;
+	transition: all .5s ease-out;
 }
 #first-suputnik {
 	background: url(images/ПС-1.jpg) no-repeat;
@@ -472,7 +472,7 @@ div.page-navigation {
 }
 #content{
 	width: 96%;
-	padding-bottom: 15%;
+	
 	background-image: linear-gradient(to bottom right, rgba(10, 10, 95, .5), rgba(159, 0, 180, 0.5),  rgba(10, 10, 95, .5));
 	position: relative;
 	clear: both;
@@ -504,7 +504,7 @@ div.page-navigation {
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
-#content p {
+#content p, #content li {
 	text-align: justify;
 	color: rgba(255, 255, 255, .6);
 	margin: 1%;
@@ -514,6 +514,11 @@ div.page-navigation {
 #right-text {
 	margin-left: 31%;
 	margin-right: 2%;
+}
+#right-text img {
+	width: 90%;
+	margin-top: 1%;
+	transition: all 0.5s;
 }
 #left-text {
 	margin-right: 31%;
@@ -547,10 +552,10 @@ div.page-navigation {
 	margin: 2%;
 	
 }
-#content video {
+#content iframe {
 	width: 50%;
 	margin-left: 25%;
-	border: 5px white solid;
+	
 	border-radius: 5px;
 	background: black;
 	opacity: 1;
@@ -564,7 +569,7 @@ div.page-navigation {
 	clear: both;
 	transition: all .5s;
 }
-.content-img-right-big:hover {
+.content-img-right-big:hover, #right-text img:hover {
 	transform: scale(1.03)
 }
 #statistyc-punkt {
@@ -572,7 +577,9 @@ div.page-navigation {
 	vertical-align: middle;
 	
 }
-
+.bottom-div {
+	padding-bottom: 15%;
+}
 
 #statistyc-punkt h3 {
 	font-size: 1.7vw;
@@ -662,4 +669,49 @@ div.page-navigation {
 	font-size: 20px;
 }
 
+/*sun.html */
 
+#sun-prognoz {
+	background: url(images/sun-prognoz.jpg) no-repeat;
+	background-size: 140%;
+	background-position: 50%;
+}
+#sun-prognoz:hover {
+	background-size: 155%;	
+}
+#sun-info {
+	background: black url(images/sun.png) no-repeat;
+	background-size: 100%;
+	background-position: 50%;
+}
+#sun-info:hover {
+	background-size: 115%;
+}
+#sun-budova {
+	background: black url(images/sun-budova-preview.png) no-repeat;
+	background-size: 100%;
+	background-position: 50%;
+}
+#sun-budova:hover {
+	background-size: 115%;
+}
+#sun-darkness {
+	background: black url(images/sun-darkness-preview.jpg) no-repeat;
+	background-size: 140%;
+	background-position: 50%;
+}
+#sun-darkness:hover {
+	background-size: 155%;
+}
+img[alt="Сонце"] {
+	box-shadow: none;
+	width: 97%;
+}
+img[alt="Сонце"]:hover {
+	transform: none;
+}
+#left-text li {
+	list-style-image: url(images/sun-icon.png);
+	list-style-position: inside;
+	width: 90%;
+}
