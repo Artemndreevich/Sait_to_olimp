@@ -147,4 +147,17 @@
   background-size: 110%;
 }
 
+#video-space-mars {
+  width: 96%;
+  background: transparent;
+  background-size: 200%;
+  margin: 2%;
+  text-align: center;
+}
+
+#video-space-mars iframe {
+  -webkit-box-shadow: 3px 3px 20px white;
+          box-shadow: 3px 3px 20px white;
+}
+
 /*# sourceMappingURL=index.css.map */
