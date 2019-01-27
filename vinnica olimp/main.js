@@ -150,6 +150,7 @@ $('#sun').mouseover(function(){
 $('#sun').mouseout(function(){
     $('.help-inform10').fadeOut(400);
 });
+// ССЫЛКИ
 
 var $page = $('html, body');
 $('a[href="#p1"]').click(function() {
@@ -158,28 +159,22 @@ $('a[href="#p1"]').click(function() {
     }, 400);
     return false;
 });
-
-var $page = $('html, body');
 $('a[href="#p2"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 800);
+    }, 400);
     return false;
 });
-
-var $page = $('html, body');
 $('a[href="#p3"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 1200);
+    }, 400);
     return false;
 });
-
-var $page = $('html, body');
 $('a[href="#p4"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 1600);
+    }, 400);
     return false;
 });
 });
