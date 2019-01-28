@@ -715,3 +715,149 @@ img[alt="Сонце"]:hover {
 	list-style-position: inside;
 	width: 90%;
 }
+
+
+/* 
+///////////////////////////////////////////////////////////////////////////////////////////////
+                                            ТЕСТ
+///////////////////////////////////////////////////////////////////////////////////////////////
+*/ 
+
+#photo_helper{
+    width: 20%;
+    height: 40%;
+    position: fixed;
+    top: 19%;
+    left: 77%;
+    z-index: 20;
+     margin: 0;
+    padding: 0;
+
+}
+#helper{
+    width: 25%;
+    height: 50%;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 10; 
+    position: fixed;
+    top: 49%;
+    left: 74.5%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#forhelp{
+    text-align: justify;
+    margin-top: 17%;
+    z-index: 2;
+	padding: 10px;
+}
+
+#photo_helper img{
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+
+#button input{
+    font-weight: bold;
+    width: 7%;
+    height: 5%;
+    position: fixed;
+    top: 93%;
+    left: 83.5%;
+    z-index: 200; 
+    border-radius: 5px;
+    background-color: #9AFE2E;
+}
+.true{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    background-color: rgb(121, 91, 255);
+    border-radius: 0.3vw;
+    padding: 1%;
+    margin-right: 10%;
+}
+.true:hover{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+   background-color: white;
+    border-radius: 0.3vw;
+transition: all 1s;
+}
+.false{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+   background-color: rgb(121, 91, 255);
+    border-radius: 0.3vw;
+    padding: 1%;
+    margin-right: 10%;
+
+}
+.false:hover{
+    display: inline-block;
+
+    width: 15%;
+    text-align: center;
+   background-color: white;
+    border-radius: 0.3vw;
+transition: all 1s;
+}
+.grenn{
+ font-size: x-large;
+ display: block;
+ text-align: center;
+ font-weight: bold;
+color: green;
+
+}
+.go{
+    text-decoration: none;
+    color: #191970;
+    font-weight: bold;
+}
+.redd{
+    font-size: x-large;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+   color: red;
+}
+#actionn {
+    
+    font-weight: bold;
+    width: 15%;
+    padding: 3%;
+    border-radius: 0.3vw;
+    background-color: rgb(254, 46, 46);
+    color: rgb(254, 46, 46);
+    transition: all 1s;
+
+}
+#actionn:hover {
+    font-weight: bold;
+    width: 15%;
+    padding: 3%;
+    border-radius: 0.3vw;
+    background-color:white;
+    color: rgb(254, 46, 46);
+    transition: all 1s;
+}
+#paddingp{
+    margin: 1vw;
+}
+
+
+/* 
+///////////////////////////////////////////////////////////////////////////////////////////////
+                                            ТЕСТ
+///////////////////////////////////////////////////////////////////////////////////////////////
+*/ 
+
