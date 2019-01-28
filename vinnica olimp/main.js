@@ -152,6 +152,7 @@ $('#sun').mouseout(function(){
 });
 // ССЫЛКИ
 
+var $page = $('html, body');
 $('a[href="#p1"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
