@@ -1,0 +1,75 @@
+body {
+	background: url(images/solar-system-start-back.jpg);
+	background-size: cover;
+	background-position: 50%;
+}
+#allphotos {
+	border: none;
+	border-radius: 10px;
+	margin: 2%;
+	width: 96%
+	
+	}
+#allphotos img {
+	height: 250px;
+	width: 32%;
+	transition: all .6s ease-out; 
+	border-radius: 3%;
+	
+	box-shadow: 1px 1px 3px white;
+}
+#allphotos h1 {
+	text-shadow: 1px 2px 7px rgba(255, 255, 255, .6);
+	font-size: 7vh;
+	color: rgba(255, 255, 255, .6);
+ 	margin-bottom: 0px;
+	line-height: 100%;
+	text-align: center;
+	margin: 3% 0;
+}
+#allphotos img:hover {
+	transform: scale3d(1.2, 1.2, 1000);
+	z-index: 1000;
+}
+#photos {
+	position: relative;
+	border: none;
+	margin: 3% 2.3% 2% 4.3%;
+}
+
+#photos1 {
+	position: relative;
+	border: none;
+	margin: 0 2.3% 2% 4.3%;
+}
+
+#photos2 {
+	position: relative;
+	border: none;
+	margin: 0 2.3% 2% 4.3%;
+}
+
+#photos3 {
+	position: relative;
+	border: none;
+	margin: 0 2.3% 2% 4.3%;
+}
+
+#photos4 {
+	position: relative;
+	border: none;
+	margin: 0 2.3% 2% 4.3%;
+}
+
+#photos5 {
+	position: relative;
+	border: none;
+	margin: 0 2.3% 2% 4.3%;
+}
+
+#photos6 {
+	position: relative;
+	border: none;
+	margin: 0 16.5% 2% 19.5%;
+}
+
