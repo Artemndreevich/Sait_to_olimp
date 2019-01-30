@@ -47,9 +47,11 @@ display: inline-block;
 	transition: all 0.3s ease-out;
 	width: 0.8vw;
 	height: 0.8vw;
+	opacity: .9;
 }
 #mark > li > a:hover > img {
 	transform: rotateX(180deg);
+	opacity: .6;
 }
 /* ПЛИТКА */
 #b1block{
@@ -600,7 +602,7 @@ div.page-navigation {
 	background: rgba(10, 10, 95, 1);
 	width: 90%;
 	clear: both;
-	
+	overflow: hidden;
 	left: 0;
 	height: 4%;
 	color: white;
@@ -733,21 +735,23 @@ img[alt="Сонце"]:hover {
 #content-test {
 	width: 94.55%;
 	padding: 1%;
-	background: white ;
+	background:  linear-gradient(to bottom right, rgba(10, 10, 95, .5), rgba(159, 0, 180, 0.5),  rgba(10, 10, 95, .5));
 	position: relative;
 	clear: both;
 	left: 2%;
 	box-shadow: 0 7px 40px rgb(151, 151, 255);
 }
 #content-test > h1 {
-	color: rgba(10, 10, 95, .5);
-	text-shadow: 2px 2px 4px rgba(10, 10, 95, .5);
+	color: rgba(255, 255, 255, .6);
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, .6);
 	text-align: center;
 	font-size: 4vw;
 	font-weight: bolder;
 }
 #content-test h2 {
-	font-size: 1.7vw;	
+	font-size: 1.7vw;
+	color: rgba(255, 255, 255, .6);
+	text-shadow: 1px 1px 2px rgba(255, 255, 255, .6);	
 }
 #photo_helper{
     width: 20%;
@@ -763,7 +767,7 @@ img[alt="Сонце"]:hover {
 #helper{
     width: 25%;
     height: 50%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, .2);
     border-radius: 5px;
     z-index: 10; 
     position: fixed;
@@ -771,7 +775,7 @@ img[alt="Сонце"]:hover {
     left: 73%;
     margin: 0;
     padding: 0;
-
+	color: white;
 }
 #helper p {
 	font-size: 1.2vw;
@@ -801,8 +805,9 @@ img[alt="Сонце"]:hover {
     z-index: 200; 
 	border-radius: 5px;
 	border-width: 0.15vw;
-	background-color: #9AFE2E;
+	background-color: rgba(10, 10, 95, 1);
 	font-size: 1.2vw;
+	color: rgba(255, 255, 255, .7);
 }
 .true{
     display: inline-block;
@@ -848,7 +853,7 @@ transition: all 1s;
  display: block;
  text-align: center;
  font-weight: bold;
-color: green;
+color: rgb(104, 255, 104);
 
 }
 .go{
@@ -861,7 +866,7 @@ color: green;
     display: block;
     text-align: center;
     font-weight: bold;
-   color: red;
+   color: rgb(255, 132, 132);
 }
 #actionn {
     border-width: 0.15vw;
