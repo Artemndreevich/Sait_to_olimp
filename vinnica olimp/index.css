@@ -108,7 +108,7 @@
 }
 
 #first-mars {
-  background: url(images/images.png) no-repeat;
+  background: black url(images/images.jpg) no-repeat;
   background-size: 130%;
   background-position: 50%;
 }
@@ -118,7 +118,7 @@
 }
 
 #second-mars {
-  background: url(images/mars-v-vodolee-2018-vliyanie-na-znaki-zodiaka.jpg) no-repeat;
+  background: url(images/in.jpg) no-repeat;
   background-size: 175%;
   background-position: 50%;
 }
@@ -128,23 +128,23 @@
 }
 
 #third-mars {
-  background: url(images/800px-TerraformedMarsGlobeRealistic.jpg) no-repeat;
-  background-size: 100% 100%;
-  background-position: 50%;
-}
-
-#third-mars:hover {
-  background-size: 110% 110%;
-}
-
-#fourth-mars {
-  background: url(images/MarsTransitionV.jpg) no-repeat;
+  background: url(images/350px-Possible_exploration_of_the_surface_of_Mars.jpg) no-repeat;
   background-size: 100%;
   background-position: 50%;
 }
 
-#fourth-mars:hover {
+#third-mars:hover {
   background-size: 110%;
+}
+
+#fourth-mars {
+  background: url(images/mars-studying.jpg) no-repeat;
+  background-size: 130%;
+  background-position: 50%;
+}
+
+#fourth-mars:hover {
+  background-size: 140%;
 }
 
 #video-space-mars {
