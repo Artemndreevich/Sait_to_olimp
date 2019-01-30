@@ -45,6 +45,8 @@ display: inline-block;
 }
 #mark > li > a > img {
 	transition: all 0.3s ease-out;
+	width: 0.8vw;
+	height: 0.8vw;
 }
 #mark > li > a:hover > img {
 	transform: rotateX(180deg);
@@ -180,7 +182,7 @@ display: inline-block;
 
 .important_span{
 	font-weight: bold;
-	font-size: x-large;
+	font-size: 2vw;;
 	
 }
 
@@ -201,18 +203,19 @@ display: inline-block;
 	
 }
 #main_title {
-	margin-left: 150px;
+	margin-left: 10%;
 
 	margin-top: 30%;
 }
 #first_big_image hr {
-	border: white 3px solid;
+	border: none;
+	border-top: white 0.5vw solid;
 	margin-left: 0px;
-	width: 400px;
+	width: 45%;
 }
 #first_big_image h1 {
 	text-shadow: 1px 2px 7px white;
-	font-size: 6em;
+	font-size: 6vw;
 	color: white;
  	margin-bottom: 0px;
 	line-height: 50%;
@@ -226,9 +229,11 @@ display: inline-block;
 	left: 2%;
 	box-shadow: 0 7px 40px rgb(151, 151, 255);
 }
-
+#main p {
+	font-size: 1.2vw;
+}
 #first_big_image h2 {
-	font-size: 3em;
+	font-size: 2vw;
 	color: white;
 	line-height: 50%;
 } 
@@ -725,7 +730,25 @@ img[alt="Сонце"]:hover {
                                             ТЕСТ
 ///////////////////////////////////////////////////////////////////////////////////////////////
 */ 
-
+#content-test {
+	width: 94.55%;
+	padding: 1%;
+	background: white ;
+	position: relative;
+	clear: both;
+	left: 2%;
+	box-shadow: 0 7px 40px rgb(151, 151, 255);
+}
+#content-test > h1 {
+	color: rgba(10, 10, 95, .5);
+	text-shadow: 2px 2px 4px rgba(10, 10, 95, .5);
+	text-align: center;
+	font-size: 4vw;
+	font-weight: bolder;
+}
+#content-test h2 {
+	font-size: 1.7vw;	
+}
 #photo_helper{
     width: 20%;
     height: 40%;
@@ -750,7 +773,9 @@ img[alt="Сонце"]:hover {
     padding: 0;
 
 }
-
+#helper p {
+	font-size: 1.2vw;
+}
 
 
 #forhelp{
@@ -774,8 +799,10 @@ img[alt="Сонце"]:hover {
     top: 93%;
     left: 83.5%;
     z-index: 200; 
-    border-radius: 5px;
-    background-color: #9AFE2E;
+	border-radius: 5px;
+	border-width: 0.15vw;
+	background-color: #9AFE2E;
+	font-size: 1.2vw;
 }
 .true{
     display: inline-block;
@@ -785,6 +812,8 @@ img[alt="Сонце"]:hover {
     border-radius: 0.3vw;
     padding: 1%;
     margin-right: 10%;
+	font-size: 1.2vw;
+	border-width: 0.15vw;
 }
 .true:hover{
     display: inline-block;
@@ -802,7 +831,8 @@ transition: all 1s;
     border-radius: 0.3vw;
     padding: 1%;
     margin-right: 10%;
-
+	font-size: 1.2vw;
+	border-width: 0.15vw;
 }
 .false:hover{
     display: inline-block;
@@ -834,7 +864,7 @@ color: green;
    color: red;
 }
 #actionn {
-    
+    border-width: 0.15vw;
     font-weight: bold;
     width: 15%;
     padding: 3%;
@@ -842,7 +872,7 @@ color: green;
     background-color: rgba(10, 10, 95, 1);
     color: rgba(255, 255, 255, 0.7);
     transition: all 1s;
-
+	font-size: 1.2vw;
 }
 #actionn:hover {
     font-weight: bold;
