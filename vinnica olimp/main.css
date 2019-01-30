@@ -27,7 +27,7 @@ display: inline-block;
 
 }
 
-#mark li a{
+#mark > li > a{
 	color: white;
 	font-weight: bold;
 	text-decoration: none; 
@@ -39,13 +39,16 @@ display: inline-block;
 	font-weight: bold;
 	font-size: 1.3vw;
 }
-#mark li a:hover{
+#mark > li > a:hover{
 	background-color: rgba(255, 255, 255, .6);
 	color: rgba(0, 0, 100, .9);
-
-
 }
-
+#mark > li > a > img {
+	transition: all 0.3s ease-out;
+}
+#mark > li > a:hover > img {
+	transform: rotateX(180deg);
+}
 /* ПЛИТКА */
 #b1block{
 	display: block;
@@ -901,3 +904,51 @@ color: green;
 #earth-facts:hover {
 	background-size: 115%;	
 }
+
+
+
+
+
+#submenu {
+	position: absolute;
+	overflow: hidden;
+	background:  rgba(10, 10, 95, .7);
+	z-index: 100;
+	position: fixed;
+	width: 16%;
+    margin:0;
+	padding:0;
+	box-shadow: 0 5px 10px rgba(43, 43, 160, 0.5);
+	transition: all 0.3s ease-out;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+}
+
+  #submenu li{
+  list-style-type: none;
+  display: block;
+  width: 100%;
+  }
+  
+  #submenu li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none; 
+	display: inline-block;
+	padding: 1vw;
+	margin-right: 2vw;
+	transition: all 0.5s ease-out;
+	border-radius: 0.2vw 0.3vw 0.2vw 0.3vw;
+	font-weight: bold;
+	font-size: 1.3vw;
+	width: 100%;
+  }
+  #submenu li a:hover{
+	color: rgba(10, 10, 95, .7);;
+	background: rgba(255, 255, 255, .4)
+  
+  }
+  #mark li:hover > #submenu {
+	  transform: scaleY(1);
+	  
+  }
