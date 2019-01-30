@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ua">
 <head>
-<title>Марс</title>
+<title>Тест</title>
 <meta charset="utf-8">
 
 <link rel="stylesheet" href="main.css">
@@ -23,40 +23,29 @@
 <body>
         <div id="menu">
             <ul id="mark">
-                <li > <a href="index.html" title="Головна сторінка">Головна</a></li>
-                <li > <a href="solar_system.html" title="Коротко про Сонячну систему">Сонячна система</a></li>
-                <li > <a href="technologies.html" title="Про космычны технології">Штучні супутники</a></li>
-                <li > <a href="sun.html" title="Про Сонце">Сонце</a></li>
-                <li > <a href="earth.html" title="Про планету Земля">Земля</a></li>
-                <li > <a href="mars.html" title="Про Марс">Марс</a></li>
-                <li><a href="galery.html" title="Космічна галерея">Галерея</a></li>
-                <li><a href="test.html" title="Тест про космос">Тест</a></li>
+                    <li> <a href="index.html" title="Головна сторінка">Головна</a></li>
+                    <li> <a href="solar_system.html" title="Коротко про Сонячну систему">Сонячна система</a>
+                    <li> <a href="#" title="Контент">Інший контент <img src="images/triangle-icon.png" height="10wh"></a>    
+                        <ul id="submenu">
+                                <li> <a href="technologies.html" title="Про космычны технології">Штучні супутники</a></li>
+                                <li> <a href="sun.html" title="Про Сонце">Сонце</a></li>
+                                <li> <a href="earth.html" title="Про планету Земля">Земля</a></li>
+                                <li> <a href="mars.html" title="Про Марс">Марс</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="galery.html" title="Космічна галерея">Галерея</a></li>
+                    <li><a href="test.html" title="Тест про космос">Тест</a></li>
             </ul>
             </div>
-            <div id="first_big_image">
-                    <!--БР для того, чтоб расстояние было  -->
-               <div id="main_title">
-               <h1>Hello </h1>
-               <h2>Сайт про космос</h2>
-               <hr>
                
-               </div><!--Взяла заголовок, подзаголовок и хр в 1 див для позиционирования-->
-               
-               </div><!--Взяла заголовок, подзаголовок и хр в 1 див для позиционирования--> 
-               
-               <!-- Сделал выше (!!!) -->
-               
-               <a href="#main"><img src="images/icon-down.png" id="icon-down"></a>
-               
-
-
-
      
-            
+            <div id="photo_helper">
+                    <img src="images/Earth-DSCOVR-20150706-IFV.png" width="100%" height="100%" alt="Вірогідно,малюнок не завантажився" title="Лого" >
+                </div>
             <div id="helper">
         
         <p id="forhelp">
-        До Вашого представлення невеликий тест на 5 питань. В кінці тесту ви отримаете відсоток правильних відповідей.
+        До Вашого представлення невеликий тест на 5 питань.  Ви мете вказати, чи правильне твердження. За кожну правильну відповідь ви отримуєте по 1 балу, а за кожну неправильну - по -1 балу. Питання у тесті  будуть на тему космоса.
         </p>
         
             </div>
@@ -64,37 +53,38 @@
                     <input type="button" value=" OK" id="bbb">
             </div>
         
-            <div id="main">                <div id="paddingp">
-                <h2> Венера - найгарячіша планета Сонячної системи</h2>
+            <div id="content-test">     
+                <h1>Тест</h1>           <div id="paddingp">
+                <h2>Земля-це планета</h2>
                 <br>
         
                 <input type="button" value="Правильно" class="true" id="dozt">
                 <input type="button" value="Невірно" class="false" id="dozf">
                 <br>
-                <h2> Першою планетой для колонізації людей стане Юпітер </h2>
+                <h2> Космос це Сонячна Система </h2>
                 <br>
         
                 <input type="button" value="Правильно" class="true" id="twot">
                 <input type="button" value="Невірно" class="false" id="twof">
                 <br>
-                <h2> Плутон - це планета </h2>
+                <h2> Космос невеликий </h2>
                 <input type="button" value="Правильно" class="true" id="pdft">
                 <input type="button" value="Невірно" class="false" id="pdff">
                 <br>
-                <h2> Найбільше супутників має Китай</h2>
+                <h2>Перший політ у відкритий космос заплановано на 2024 рік.</h2>
                 <br>
         
                 <input type="button" value="Правильно" class="true" id="hdt">
                 <input type="button" value="Невірно" class="false" id="hdf">
                 <br>
-                <h2> Сонце менше за Юпітер</h2>
+                <h2> Глобальне потепління, можливо, міф</h2>
                 <br>
         
                 <input type="button" value="Правильно" class="true" id="zipt">
                 <input type="button" value="Невірно" class="false" id="zipf">
                 <br>
                 <div id="buon">
-                <h2> Тепер підрахуємо ваш відсоток </h2>
+                <h2> Тепер підрахуємо кількість правильніх відповідей </h2>
         </div>
                
                         <input type="button" value=" OK" id="actionn">

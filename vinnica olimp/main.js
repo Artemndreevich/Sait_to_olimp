@@ -178,7 +178,7 @@ $('a[href="#p4"]').click(function() {
     return false;
 });
 
-
+var percent_dovn=0;
 var button = $('#bbb');
 var photo=$('#photo_helper');
 var  textdiv=$('#helper');
@@ -202,70 +202,70 @@ tru.click(function(){
  button.fadeIn(700);
 });*/
 $('#dozt').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br> Ви можете перейти на  <a class="go" href="rest.html" title="Артем.Дозвілля" target="_blanc">Артем.Дозвілля</a> . Там Ви знайдете , чим можна зайнятися , коли нічого робити</p>');
+    textdiv.html('<p id="forhelp"> <span class="grenn" >  <br> Вірно</span> Це планета</p>');
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn++;
 });
 $('#dozf').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>Артем.Дозвілля - один з сервісів нашог банку. Ви можете перейти на цю <a class="go" target="_blanc" title="Артем.Дозвілля" href="rest.html">Артем.Дозвілля</a> . Там Ви знайдете , чим можна зайнятися , коли нічого робити</p>');
+    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span>  <br> Це планета</p>');
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn--;
 });
 $('#twof').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br>А й справді,  якщо десять разів перемножити 2 на себе , то вйде не 1000, а 1024. А ось і посилання на Вікіпедію   <a class="go"  target="noname" href="https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BF%D1%96%D0%BD%D1%8C"> Вікіпедію</a>, де ви можете почитати про степінь </p>' );
+    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br>А й справді,  космос набагато більший </p>' );
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn++;
 });
 $('#twot').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>Адже якщо перемножити 2 на себе 10 разів, вийде 1024, а не 1000 А ось і посилання на Вікіпедію   <a class="go"  target="noname" href="https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BF%D1%96%D0%BD%D1%8C"> Вікіпедію</a>, де ви можете почитати про степінь </p>');
+    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>ВЕЛИКИЙ</p>');
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn--;
 });
 $('#pdff').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br>Це розширення </p>' );
+    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br>ДУЖЕ ВЕЛИКИЙ </p>' );
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn++;
 });
 $('#pdft').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>Це розширення, адже там стоїть крапка. </p>');
+    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>ВЕЛИКИЙ </p>');
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn--;
 });
 $('#hdf').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br> Адже це по-суті більше схоже на жарт </p>' );
+    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br> Адже це по-суті сталося набагато раніше </p>' );
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn++;
 });
 $('#hdt').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>У жорсткого  диску немає ядрів, а блок живлення грає ключову роль, у компьютері, без нього  не можна запустити нічого </p>');
+    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>Це сталося раніше </p>');
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn--;
 });
 $('#zipt').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br> Це досить старий вірус, про нього також написана стяття на порталі <a class="go" target="noname" title="Артем.Дозвілля" href="zip42.html">Артем.Дозвілля</a> . Там Ви знайдете про нього багато інформації , а також дещо інше</p>');
+    textdiv.html('<p id="forhelp"> <span class="grenn" > Вірно</span> <br> Можливо</p>');
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
     percent_dovn++;
 });
 $('#zipf').click(function(){
-    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>Це -таки вірус, про нього також написана стяття на порталі <a class="go" target="noname" title="Артем.Дозвілля" href="zip42.html">Артем.Дозвілля</a> . Там Ви знайдете про нього багато інформації , а також дещо інше</p>');
+    textdiv.html('<p id="forhelp"> <span class="redd" > Невірно</span> <br>Є така думка</p>');
     photo.fadeIn(700);
     textdiv.fadeIn(700);
     button.fadeIn(700);
