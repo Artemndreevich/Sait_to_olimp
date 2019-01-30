@@ -836,8 +836,8 @@ color: green;
     width: 15%;
     padding: 3%;
     border-radius: 0.3vw;
-    background-color: rgb(254, 46, 46);
-    color: rgb(254, 46, 46);
+    background-color: rgba(10, 10, 95, 1);
+    color: rgba(255, 255, 255, 0.7);
     transition: all 1s;
 
 }
@@ -847,7 +847,7 @@ color: green;
     padding: 3%;
     border-radius: 0.3vw;
     background-color:white;
-    color: rgb(254, 46, 46);
+    color: rgba(10, 10, 95, .7);
     transition: all 1s;
 }
 #paddingp{
@@ -861,3 +861,43 @@ color: green;
 ///////////////////////////////////////////////////////////////////////////////////////////////
 */ 
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////
+											EARTH
+/////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#gagarin {
+	background: url(images/gagarin-nav.jpg) no-repeat;
+	background-size: 110%;
+	background-position: 50%;
+}
+#gagarin:hover {
+	background-size: 125%;	
+}
+#earth-future-nav {
+	background: url(images/pangeya.jpg) no-repeat;
+	background-size: 100%;
+	background-position: 50%;
+}
+#earth-future-nav:hover {
+	background-size: 115%;
+}
+#earth-born {
+	background: black url(images/earth-born-nav.jpg) no-repeat;
+	background-size: 120%;
+	background-position: 50%;
+}
+#earth-born:hover {
+	background-size: 135%;	
+}
+#facts {
+	list-style-position: inside;
+	list-style-type: upper-roman;
+}
+#earth-facts {
+	background: black url(images/Earth_Western_Hemisphere_transparent_background.png) no-repeat;
+	background-size: 100%;
+	background-position: 50%;
+}
+#earth-facts:hover {
+	background-size: 115%;	
+}
