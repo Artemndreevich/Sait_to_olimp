@@ -53,6 +53,11 @@ display: inline-block;
 	transform: rotateX(180deg);
 	opacity: .6;
 }
+.selected {
+	background-color: rgba(168, 122, 255, 0.5);
+	color: rgba(0, 0, 100, .9);
+	border-radius: 0;
+}
 /* ПЛИТКА */
 #b1block{
 	display: block;
